@@ -6,14 +6,12 @@ stages
 
 Stage("SCM Check")
 {
-stage
-{
 steps
 {
 git branch: 'Master', url: 'https://github.com/Pankaj-git1/Cloud_Formation.git'
 }
 }
-}
+
 
 
 stage('SCM Check')
