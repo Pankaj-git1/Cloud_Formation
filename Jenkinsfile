@@ -14,7 +14,7 @@ git branch: 'Master', url: 'https://github.com/Pankaj-git1/Cloud_Formation.git'
 
 
 
-stage('SCM Check')
+stage('S3 Creation')
 {
 steps
 {
