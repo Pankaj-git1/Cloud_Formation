@@ -4,7 +4,7 @@ agent any
 stages
 {
 
-Stage("SCM Check")
+stage("SCM Check")
 {
 steps
 {
