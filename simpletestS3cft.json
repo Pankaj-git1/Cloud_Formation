@@ -1,0 +1,16 @@
+{
+"AWSTemplateFormatVersion": "2010-09-09",
+"Resources": {
+"s3Bucket": {
+"Type": "AWS::s3::Bucket"
+}
+},
+"outputs": {
+"BucketName": {
+"Value": {
+"Ref": "s3Bucket"
+},
+"Description": "Name of the samole Amaxon s3 bucket"
+}
+}
+}
